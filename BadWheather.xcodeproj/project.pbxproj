@@ -1,0 +1,456 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		62D1416518C98C06002B3ACE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62D1416418C98C06002B3ACE /* Foundation.framework */; };
+		62D1416718C98C06002B3ACE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62D1416618C98C06002B3ACE /* CoreGraphics.framework */; };
+		62D1416918C98C06002B3ACE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62D1416818C98C06002B3ACE /* UIKit.framework */; };
+		62D1416F18C98C06002B3ACE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 62D1416D18C98C06002B3ACE /* InfoPlist.strings */; };
+		62D1417118C98C06002B3ACE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 62D1417018C98C06002B3ACE /* main.m */; };
+		62D1417518C98C06002B3ACE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 62D1417418C98C06002B3ACE /* AppDelegate.m */; };
+		62D1417718C98C06002B3ACE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62D1417618C98C06002B3ACE /* Images.xcassets */; };
+		62D1417E18C98C06002B3ACE /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62D1417D18C98C06002B3ACE /* XCTest.framework */; };
+		62D1417F18C98C06002B3ACE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62D1416418C98C06002B3ACE /* Foundation.framework */; };
+		62D1418018C98C06002B3ACE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62D1416818C98C06002B3ACE /* UIKit.framework */; };
+		62D1418818C98C06002B3ACE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 62D1418618C98C06002B3ACE /* InfoPlist.strings */; };
+		62D1418A18C98C06002B3ACE /* BadWheatherTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 62D1418918C98C06002B3ACE /* BadWheatherTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		62D1418118C98C06002B3ACE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 62D1415918C98C06002B3ACE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62D1416018C98C06002B3ACE;
+			remoteInfo = BadWheather;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		62D1416118C98C06002B3ACE /* BadWheather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BadWheather.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		62D1416418C98C06002B3ACE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		62D1416618C98C06002B3ACE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		62D1416818C98C06002B3ACE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		62D1416C18C98C06002B3ACE /* BadWheather-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BadWheather-Info.plist"; sourceTree = "<group>"; };
+		62D1416E18C98C06002B3ACE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		62D1417018C98C06002B3ACE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		62D1417218C98C06002B3ACE /* BadWheather-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BadWheather-Prefix.pch"; sourceTree = "<group>"; };
+		62D1417318C98C06002B3ACE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		62D1417418C98C06002B3ACE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		62D1417618C98C06002B3ACE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		62D1417C18C98C06002B3ACE /* BadWheatherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BadWheatherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		62D1417D18C98C06002B3ACE /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		62D1418518C98C06002B3ACE /* BadWheatherTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BadWheatherTests-Info.plist"; sourceTree = "<group>"; };
+		62D1418718C98C06002B3ACE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		62D1418918C98C06002B3ACE /* BadWheatherTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BadWheatherTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		62D1415E18C98C06002B3ACE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62D1416718C98C06002B3ACE /* CoreGraphics.framework in Frameworks */,
+				62D1416918C98C06002B3ACE /* UIKit.framework in Frameworks */,
+				62D1416518C98C06002B3ACE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62D1417918C98C06002B3ACE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62D1417E18C98C06002B3ACE /* XCTest.framework in Frameworks */,
+				62D1418018C98C06002B3ACE /* UIKit.framework in Frameworks */,
+				62D1417F18C98C06002B3ACE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		62D1415818C98C06002B3ACE = {
+			isa = PBXGroup;
+			children = (
+				62D1416A18C98C06002B3ACE /* BadWheather */,
+				62D1418318C98C06002B3ACE /* BadWheatherTests */,
+				62D1416318C98C06002B3ACE /* Frameworks */,
+				62D1416218C98C06002B3ACE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		62D1416218C98C06002B3ACE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				62D1416118C98C06002B3ACE /* BadWheather.app */,
+				62D1417C18C98C06002B3ACE /* BadWheatherTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		62D1416318C98C06002B3ACE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				62D1416418C98C06002B3ACE /* Foundation.framework */,
+				62D1416618C98C06002B3ACE /* CoreGraphics.framework */,
+				62D1416818C98C06002B3ACE /* UIKit.framework */,
+				62D1417D18C98C06002B3ACE /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		62D1416A18C98C06002B3ACE /* BadWheather */ = {
+			isa = PBXGroup;
+			children = (
+				62D1417318C98C06002B3ACE /* AppDelegate.h */,
+				62D1417418C98C06002B3ACE /* AppDelegate.m */,
+				62D1417618C98C06002B3ACE /* Images.xcassets */,
+				62D1416B18C98C06002B3ACE /* Supporting Files */,
+			);
+			path = BadWheather;
+			sourceTree = "<group>";
+		};
+		62D1416B18C98C06002B3ACE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				62D1416C18C98C06002B3ACE /* BadWheather-Info.plist */,
+				62D1416D18C98C06002B3ACE /* InfoPlist.strings */,
+				62D1417018C98C06002B3ACE /* main.m */,
+				62D1417218C98C06002B3ACE /* BadWheather-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		62D1418318C98C06002B3ACE /* BadWheatherTests */ = {
+			isa = PBXGroup;
+			children = (
+				62D1418918C98C06002B3ACE /* BadWheatherTests.m */,
+				62D1418418C98C06002B3ACE /* Supporting Files */,
+			);
+			path = BadWheatherTests;
+			sourceTree = "<group>";
+		};
+		62D1418418C98C06002B3ACE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				62D1418518C98C06002B3ACE /* BadWheatherTests-Info.plist */,
+				62D1418618C98C06002B3ACE /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		62D1416018C98C06002B3ACE /* BadWheather */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62D1418D18C98C06002B3ACE /* Build configuration list for PBXNativeTarget "BadWheather" */;
+			buildPhases = (
+				62D1415D18C98C06002B3ACE /* Sources */,
+				62D1415E18C98C06002B3ACE /* Frameworks */,
+				62D1415F18C98C06002B3ACE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BadWheather;
+			productName = BadWheather;
+			productReference = 62D1416118C98C06002B3ACE /* BadWheather.app */;
+			productType = "com.apple.product-type.application";
+		};
+		62D1417B18C98C06002B3ACE /* BadWheatherTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62D1419018C98C06002B3ACE /* Build configuration list for PBXNativeTarget "BadWheatherTests" */;
+			buildPhases = (
+				62D1417818C98C06002B3ACE /* Sources */,
+				62D1417918C98C06002B3ACE /* Frameworks */,
+				62D1417A18C98C06002B3ACE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				62D1418218C98C06002B3ACE /* PBXTargetDependency */,
+			);
+			name = BadWheatherTests;
+			productName = BadWheatherTests;
+			productReference = 62D1417C18C98C06002B3ACE /* BadWheatherTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		62D1415918C98C06002B3ACE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = cci;
+				TargetAttributes = {
+					62D1417B18C98C06002B3ACE = {
+						TestTargetID = 62D1416018C98C06002B3ACE;
+					};
+				};
+			};
+			buildConfigurationList = 62D1415C18C98C06002B3ACE /* Build configuration list for PBXProject "BadWheather" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 62D1415818C98C06002B3ACE;
+			productRefGroup = 62D1416218C98C06002B3ACE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				62D1416018C98C06002B3ACE /* BadWheather */,
+				62D1417B18C98C06002B3ACE /* BadWheatherTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		62D1415F18C98C06002B3ACE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62D1416F18C98C06002B3ACE /* InfoPlist.strings in Resources */,
+				62D1417718C98C06002B3ACE /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62D1417A18C98C06002B3ACE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62D1418818C98C06002B3ACE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		62D1415D18C98C06002B3ACE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62D1417518C98C06002B3ACE /* AppDelegate.m in Sources */,
+				62D1417118C98C06002B3ACE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62D1417818C98C06002B3ACE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62D1418A18C98C06002B3ACE /* BadWheatherTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		62D1418218C98C06002B3ACE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 62D1416018C98C06002B3ACE /* BadWheather */;
+			targetProxy = 62D1418118C98C06002B3ACE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		62D1416D18C98C06002B3ACE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				62D1416E18C98C06002B3ACE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		62D1418618C98C06002B3ACE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				62D1418718C98C06002B3ACE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		62D1418B18C98C06002B3ACE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		62D1418C18C98C06002B3ACE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		62D1418E18C98C06002B3ACE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BadWheather/BadWheather-Prefix.pch";
+				INFOPLIST_FILE = "BadWheather/BadWheather-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		62D1418F18C98C06002B3ACE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BadWheather/BadWheather-Prefix.pch";
+				INFOPLIST_FILE = "BadWheather/BadWheather-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		62D1419118C98C06002B3ACE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BadWheather.app/BadWheather";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BadWheather/BadWheather-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BadWheatherTests/BadWheatherTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		62D1419218C98C06002B3ACE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BadWheather.app/BadWheather";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BadWheather/BadWheather-Prefix.pch";
+				INFOPLIST_FILE = "BadWheatherTests/BadWheatherTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		62D1415C18C98C06002B3ACE /* Build configuration list for PBXProject "BadWheather" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62D1418B18C98C06002B3ACE /* Debug */,
+				62D1418C18C98C06002B3ACE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62D1418D18C98C06002B3ACE /* Build configuration list for PBXNativeTarget "BadWheather" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62D1418E18C98C06002B3ACE /* Debug */,
+				62D1418F18C98C06002B3ACE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		62D1419018C98C06002B3ACE /* Build configuration list for PBXNativeTarget "BadWheatherTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62D1419118C98C06002B3ACE /* Debug */,
+				62D1419218C98C06002B3ACE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 62D1415918C98C06002B3ACE /* Project object */;
+}
